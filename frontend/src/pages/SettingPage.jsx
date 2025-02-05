@@ -5,8 +5,8 @@ import { Send } from 'lucide-react'
 
 
 const PREVIEW_MESSAGES =[
-  {id:1, content:"This is a for Show", isSent : false},
-  {id:2, content:"its they will understand", isSent : true},
+  {id:1, content:"This is a preview message", isSent : false},
+  {id:2, content:"i am doing great ! just working on some new features ", isSent : true},
 ]
 
 const SettingPage = () => {
@@ -61,7 +61,7 @@ const SettingPage = () => {
                       J
                     </div>
                     <div>
-                      <h3 className="font-medium text-sm">Batman</h3>
+                      <h3 className="font-medium text-sm">John Doe</h3>
                       <p className="text-xs text-base-content/70">Online</p>
                     </div>
                   </div>
