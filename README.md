@@ -36,4 +36,4 @@ This project is licensed under the **MIT License**.
 Pull requests are welcome! Feel free to open an issue for any suggestions or bugs.
 
 ---
-Made with ❤️ by Aryan Patel
+Made with Aryan Patel
