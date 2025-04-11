@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/demon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Apply the custom font only to this page */
+  .landing-page {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+.secondary-text {
+    font-family: 'SecondaryFont', sans-serif;
+}
+  
+  
+
+  
