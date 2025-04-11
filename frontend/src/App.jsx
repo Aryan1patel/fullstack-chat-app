@@ -20,7 +20,7 @@ import { Toaster } from "react-hot-toast";
 import { useThemeStore } from "./store/useThemeStore.js";
 import { MusicProvider } from "./components/MusicContext.jsx";
 
-import Imagedis from "./components/imageDis.jsx";
+// import Imagedis from "./components/imageDis.jsx";
 
 
 function App() {
