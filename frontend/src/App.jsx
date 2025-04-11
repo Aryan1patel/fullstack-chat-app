@@ -20,7 +20,7 @@ import { Toaster } from "react-hot-toast";
 import { useThemeStore } from "./store/useThemeStore.js";
 import { MusicProvider } from "./components/MusicContext.jsx";
 
-// import Imagedis from "./components/imageDis.jsx";
+import Imagedis from "./components/imageDis.jsx";
 
 
 function App() {
@@ -57,7 +57,7 @@ function App() {
           <Route path="/quinn" element={authUser ? <Harlyqueen /> : <Navigate to="/login" />} />
           <Route path="/tyler" element={authUser ? <Tyler /> : <Navigate to="/login" />} />
 
-          {/* <Route path="/image1" element={authUser ? <Imagedis /> : <Navigate to="/login" />} /> */}
+          <Route path="/image1" element={authUser ? <Imagedis /> : <Navigate to="/login" />} />
 
           <Route path="/gallery" element={authUser ? <GalleryShowcase /> : <Navigate to="/login" />} />
           <Route path="/gallery2" element={authUser ? <GalleryShowcase2 /> : <Navigate to="/login" />} />
